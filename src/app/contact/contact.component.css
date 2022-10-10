@@ -1,0 +1,54 @@
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    background: url(../../assets/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+form {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(5);
+    text-align: center;
+   
+    
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1 {
+    text-transform: uppercase;
+    color: chocolate;
+    text-decoration: underline;
+}
+input {
+    display: block;
+    margin: 0 auto;
+    width:350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    background: transparent;
+}
+
+textarea {    
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 350px;
+    padding-left: 15px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 15px;
+}

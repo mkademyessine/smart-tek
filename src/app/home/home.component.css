@@ -1,0 +1,117 @@
+
+/**style the home section which contains all the view**/
+.home
+{
+    background: url(../../assets/banner.jpg);
+    height: 85vh;
+    padding-top: 150px;
+}
+/****** sytle the container that have the description and the presentation image********/
+.container{
+    width: 100%;
+    color: white;
+}
+
+.container h1{
+    font-weight: bold;
+    font-family: 'Gill Sans',  sans-serif;
+}
+.smart{
+    margin-left: 70px;
+    font-size: 80px;
+}
+.tek{
+    color: lightseagreen;
+}
+
+.container a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+.container button{
+    background: transparent;
+    margin-left: 20px;
+    border-color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.container button:hover{
+    background:lightseagreen;
+}
+.container img{
+    max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+}
+/*** set the height  of the screen in responsive ***/
+@media screen and (max-width:1200px) {
+    .home{
+        height: 120vh;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container p{
+        text-align: justify;
+    }
+    
+}
+
+.presentation-product{
+    margin: 40px;
+    margin-left: 45px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.presentation-product .col-md-4{
+    text-align: center;
+    border: 2px solid lightseagreen;
+    margin: 10px;
+    border-radius: 15px;
+    width: 400px;
+}
+.presentation-product a{
+    color: white;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/**** brands logo styling***/
+.image img{
+    width: 350px;
+    border: none;
+    height:250px;
+}
+.brands .col-md-4{
+    margin-bottom: 30px;
+}
+
+.brands{
+    margin: 40px;
+    margin-left: 45px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    background: whitesmoke;
+}
+
+.brands h1{
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+.brands a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.laptop-section{    
+    margin-bottom:  40px ;
+}
+.smartphones-section h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
