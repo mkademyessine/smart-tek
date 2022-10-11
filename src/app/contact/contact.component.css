@@ -3,10 +3,9 @@
     padding-bottom: 50px;
     text-align: center;
     align-items: center;
-    background: url(../../assets/contact.jpg);
+    background: url(../../assets/cont.jpg);
     background-position: center;
     background-size: cover;
-    
 }
 form {
     margin: 30px;
@@ -20,11 +19,13 @@ form {
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    color: white;
 }
 h1 {
     text-transform: uppercase;
-    color: chocolate;
-    text-decoration: underline;
+    color: white;
+    text-shadow: 2px black;
+    text-decoration: none;
 }
 input {
     display: block;
@@ -35,9 +36,11 @@ input {
     margin-top: 10px;
     padding-left: 15px;
     background: transparent;
+    color: white;
 }
 
-textarea {    
+textarea {   
+    color: white; 
     background: transparent;
     display: block;
     margin: 0 auto;
@@ -51,4 +54,5 @@ button {
     margin: 0 auto;
     width: 250px;
     margin-top: 15px;
+    font-weight: bold;
 }
